@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Curiosi</string>
+    <string name="login_footer">By creating an account or continuing with use of app you agree to our Terms of Service and Privacy Policy</string>
 </resources>

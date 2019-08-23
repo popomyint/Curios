@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "336174370085",
+    "firebase_url": "https://curio-74e86.firebaseio.com",
+    "project_id": "curio-74e86",
+    "storage_bucket": "curio-74e86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336174370085:android:ce1b3197d8bcd190",
+        "android_client_info": {
+          "package_name": "com.example.curiosi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336174370085-dm3gtmilns5p2qenfc4basga18q9dd4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCATDVm6y7gBUJPDGGKwg6h2i9SyRRNgY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336174370085-dm3gtmilns5p2qenfc4basga18q9dd4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
