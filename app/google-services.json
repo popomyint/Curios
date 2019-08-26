@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "336174370085-23t1fa4piah6e8v2bqglm0lr0p6e9h27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.curiosi",
+            "certificate_hash": "0fc913f8baed858da5d18cd3db99cad26fe5933b"
+          }
+        },
+        {
           "client_id": "336174370085-dm3gtmilns5p2qenfc4basga18q9dd4j.apps.googleusercontent.com",
           "client_type": 3
         }
