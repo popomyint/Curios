@@ -5,15 +5,15 @@ public class DataModel {
     public String title;
     public String desc;
     public String image;
-    public String imgPath = "gs://curio-74e86.appspot.com/";
 
     public DataModel(){
 
     }
 
-    public DataModel(int did, String title, String desc){
+    public DataModel(int did, String title, String desc, String image){
         this.did = did;
         this.title = title;
         this.desc = desc;
+        this.image = image;
     }
 }

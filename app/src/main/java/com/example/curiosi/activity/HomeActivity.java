@@ -40,7 +40,7 @@ public class HomeActivity extends BaseActivity implements HomeView {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
         setContentView(R.layout.activity_home);
 
-        fireStoreAdapter = new FireStoreAdapter(dataList);
+        fireStoreAdapter = new FireStoreAdapter(this, dataList);
         RecyclerView recyclerView = findViewById(R.id.customRecyclerView);
 
         RecyclerView.LayoutManager manager = new LinearLayoutManager(this);
@@ -50,8 +50,8 @@ public class HomeActivity extends BaseActivity implements HomeView {
 
         recyclerView.setAdapter(fireStoreAdapter);
         //StudentDataPrepare();
-        //homePresenter = new HomePresenterImpl(this);
-        //homePresenter.getDataFromFirebase(this);
+//        homePresenter = new HomePresenterImpl(this);
+//        homePresenter.getDataFromFirebase(this);
         FireStoreDataPrepare();
     }
 
@@ -95,6 +95,11 @@ public class HomeActivity extends BaseActivity implements HomeView {
     @Override
     public Context getContext() {
         return this.getApplicationContext();
+    }
+
+    @Override
+    public void getData(List<DataModel> dataList) {
+        this.dataList = dataList;
     }
 
 //    private void StudentDataPrepare() {
