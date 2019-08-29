@@ -59,6 +59,12 @@ public class MainActivity extends BaseActivity implements MainView {
         });
         mainPresenter = new MainPresenterImpl(this);
         mainPresenter.createGoogleClient(this);
+        skipbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+            }
+        });
     }
 
     @Override

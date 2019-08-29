@@ -1,4 +1,4 @@
 package com.example.curiosi.view;
 
-public interface HomeView {
+public interface HomeView extends BaseView {
 }
