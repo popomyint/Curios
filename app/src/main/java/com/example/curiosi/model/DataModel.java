@@ -10,8 +10,7 @@ public class DataModel {
 
     }
 
-    public DataModel(int did, String title, String desc, String image){
-        this.did = did;
+    public DataModel(String title, String desc, String image){
         this.title = title;
         this.desc = desc;
         this.image = image;

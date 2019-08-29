@@ -39,7 +39,6 @@ public class FireStoreAdapter extends RecyclerView.Adapter<FireStoreAdapter.Cust
     @Override
     public void onBindViewHolder(@NonNull CustomViewHolder holder, int position) {
         DataModel data = dataList.get(position);
-        holder.did.setText(String.valueOf(data.did));
         holder.title.setText(data.title);
         holder.desc.setText(data.desc);
         Glide.with(context) //1
@@ -59,11 +58,9 @@ public class FireStoreAdapter extends RecyclerView.Adapter<FireStoreAdapter.Cust
     public class CustomViewHolder extends RecyclerView.ViewHolder {
         TextView title;
         TextView desc;
-        TextView did;
         ImageView coverImage;
         public CustomViewHolder(@NonNull View itemView) {
             super(itemView);
-            did = itemView.findViewById(R.id.did);
             title = itemView.findViewById(R.id.title);
             desc = itemView.findViewById(R.id.desc);
             coverImage = itemView.findViewById(R.id.coverImage);
