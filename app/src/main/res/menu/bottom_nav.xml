@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/talks"
+        android:title="Daily"
+        android:icon="@mipmap/logo"/>
+    <item
+        android:id="@+id/discover"
+        android:title="Discover"
+        android:icon="@mipmap/ws"/>
+    <item
+        android:id="@+id/podcasts"
+        android:title="Saved"
+        android:icon="@mipmap/react"/>
+    <item
+        android:id="@+id/my_talks"
+        android:title="Profile"
+        android:icon="@mipmap/setting"/>
+</menu>
